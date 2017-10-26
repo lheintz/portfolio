@@ -7,6 +7,11 @@ header {
   background-color:red;
 }
 
+h1 {
+  font-size: 2em;
+  color:darkturquoise;
+}
+
 header img {
   display:block;
   margin:auto;
@@ -37,7 +42,7 @@ nav a:hover {
 
 body {
   background-color:azure;
-  font-family: sans-serif;
+  font-family: Tahoma, sans-serif;
 }
 
 footer {
@@ -50,6 +55,11 @@ footer p {
 
 .center {
   text-align: center;
+}
+
+p.center {
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .tomato {
