@@ -1,48 +1,93 @@
 <style>
   
+
 header {
   width:50%;
   margin-left:auto;
   margin-right:auto;
+  margin-top:10%;
   background-color:red;
 }
 
+
+
 h1 {
-  font-size: 2em;
-  color:darkturquoise;
+  font-size: 5em;
+}
+
+.banner {
+  font-family: Cookie, serif;
+  font-size: 6em;
+  text-align:center;
+  margin-top: 7%;
+  margin-bottom: 2%;
+  color:rgb(215,225,234);
 }
 
 header img {
-  display:block;
-  margin:auto;
+  width:30%;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 3%;
 }
 
-nav {
-  background-color: goldenrod;
-  height:100px;
-  line-height: 100px;
+nav li {
+  float: left;
+  min-width: 180px;
   text-align: center;
-  letter-spacing: 2px;
-  border-style: solid;
-  border-color:black;
-  border-width: 5px;
 }
 
 nav a {
+  display: block;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom:20px;
+  letter-spacing: 1px;
+  background-color: gainsboro;
+  color:darkslateblue;
   text-decoration: none;
-  text-transform: lowercase;
-  margin-left:10px;
-  margin-right:10px;
+  font-weight: bold;
+  margin-left:15px;
+  margin-right:15px;
+  border-radius:15px;
+  text-transform: uppercase;
+  border-style: solid;
+  border-width: 1px;
 }
 
-nav a:hover {
-  text-transform: uppercase; 
-  color:blue;
+li a:hover {
+    background-color: royalblue;
+    color:gainsboro;
 }
+
+.main-nav {
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  margin-bottom: 5%;
+}
+
+/* The Magic Float Center Code */
+.float_center {
+  float: right;
+
+  position: relative;
+  left: -50%; /* or right 50% */
+  text-align: left;
+}
+.float_center > .child {
+  position: relative;
+  left: 50%;
+}
+
+.clearfix {
+  clear:both;
+}
+
 
 body {
-  background-color:azure;
-  font-family: Tahoma, sans-serif;
+  background-color:rgb(36,67,139);
+  font-family: Roboto, sans-serif;
 }
 
 footer {
@@ -83,3 +128,13 @@ p.center {
 }
 
 </style>
+
+/* Blue color scheme:
+
+background color: darkslateblue rgb(36,67,139)
+grey: gainsboro rgb(215,225,234)
+light blue: turqoise rgb(57,217,240)
+medium blue: cornflower bleu rgb(71,171,241)
+dark blue: royalblue rgb(55,97,246)
+
+*/

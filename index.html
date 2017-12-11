@@ -4,32 +4,47 @@
 <head>
   <meta charset="UTF-8">
   <title>Lauren Heintz Personal Portfolio Website</title>
+  
+  <link rel="stylesheet" type="text/css" href="styles/meyer-reset.css">
+  
+  <link href="https://fonts.googleapis.com/css?family=Arapey|Cookie|Roboto" rel="stylesheet">
+  
   <link rel="stylesheet" type="text/css" href="styles/first-stylesheet.css">
+  
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  
+  <link href="https://fonts.googleapis.com/css?family=Arapey|Cookie|Roboto" rel="stylesheet">
+  
+  <script src="https://use.fontawesome.com/65f75abeff.js"></script>
+   <link rel="stylesheet" type="text/css" href="styles/first-stylesheet.css">
+  
 </head>
   
 <body>
   
   <header>
      <!--- Logo, name of the site, main navigation -->
-    <img src ="images/logo2.JPG" alt="logo" height=300 width=700 />
+    <p class="banner">
+      Lauren Heintz
+    </p>
     
-    <nav>
-      <i class="material-icons">directions_run</i>
-      <a href="./index.html">About Me</a>
-      <a href="#">Career</a>
-      <a href="./projects.html">Projects</a>
-      <a href="./hiking.html">Hiking</a>
-      <a href="#">Traveling</a>
-      <a href="./contact.html">Contact</a>
+    <img src="./images/nightplane.JPG" title="planegraphic" alt="planegraphic">
+    
+    <nav class="main-nav float_center">
+        <ul class="child">
+          <li><a href="./index.html">About</a></li>
+          <li><a href="#">Career</a></li>
+          <li><a href="./projects.html">Projects</a></li>
+          <li><a href="./hiking.html">Hiking</a></li>
+          <li><a href="#">Traveling</a></li>
+          <li><a href="./contact.html">Contact</a></li>
+        </ul>
     </nav>
   </header>
   
-  <section>
-    <hr>
+  <section class="clearfix">
     <h1>ABOUT</h1>
-    <hr>
-    
+    <i class="fa fa-info fa-lg" aria-hidden="true"></i>
     <figure>
       <img src="images/headshot.jpg" title="Professional Headshot" alt="Professional Headshot" height=30% width=30%>
     </figure>
@@ -45,14 +60,6 @@
   
   <footer>
     <hr>
-    <nav>
-      <a href="./index.html">About Me</a>
-      <a href="#">Career</a>
-      <a href="./projects.html">Projects</a>
-      <a href="./hiking.html">Hiking</a>
-      <a href="#">Traveling</a>
-      <a href="./contact.html" target="_blank">Contact</a>
-    </nav>
     <p>&copy;| Lauren Heintz |<time datetime="2017-10-14" pubdate> October 14, 2017</time></p>
   </footer>
   
