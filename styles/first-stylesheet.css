@@ -105,9 +105,6 @@ footer {
   text-align: center;
 }
 
-footer p {
-  text-shadow: 3px 2x grey;
-}
 
 .center {
   text-align: center;
@@ -116,10 +113,6 @@ footer p {
 p.center {
   padding-left: 10%;
   padding-right: 10%;
-}
-
-.tomato {
-  background-color:tomato;
 }
 
 .rightmarg {
@@ -146,12 +139,12 @@ footer {
   padding-top: 50px;
   padding-bottom: 50px;
   background-color:gainsboro;
-  color:rgb(215,225,234);
 }
 
 footer a {
   text-decoration: none;
   padding:10px;
+  color:royalblue;
 }
 
 
