@@ -1,5 +1,4 @@
-<style>
-  
+/*
 
 header {
   width:50%;
@@ -8,8 +7,11 @@ header {
   margin-top:10%;
   background-color:red;
 }
+*/
 
-
+a {
+  text-decoration: none;
+}
 
 h1 {
   font-size: 5em;
@@ -20,6 +22,15 @@ h1 {
   font-size: 6em;
   text-align:center;
   margin-top: 7%;
+  margin-bottom: 2%;
+  color:rgb(215,225,234);
+}
+
+.compact-banner {
+  font-family: Cookie, serif;
+  font-size: 6em;
+  text-align:center;
+  margin-top: 2%;
   margin-bottom: 2%;
   color:rgb(215,225,234);
 }
@@ -127,7 +138,22 @@ p.center {
   border-left-width: 5px;
 }
 
-</style>
+footer {
+/*  images float left and centered on the page.*/
+  clear:both;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color:gainsboro;
+  color:rgb(215,225,234);
+}
+
+footer a {
+  text-decoration: none;
+  padding:10px;
+}
+
 
 /* Blue color scheme:
 
@@ -136,5 +162,15 @@ grey: gainsboro rgb(215,225,234)
 light blue: turqoise rgb(57,217,240)
 medium blue: cornflower bleu rgb(71,171,241)
 dark blue: royalblue rgb(55,97,246)
+
+*/
+
+/* Brown color scheme:
+
+background: bisque
+yellow: sandybrown
+orange: coral
+red: tomato
+brown: darkolivegreen
 
 */

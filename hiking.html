@@ -4,27 +4,46 @@
 <head>
   <meta charset="UTF-8">
   <title>Lauren Heintz Personal Portfolio Website</title>
+ 
+  <link rel="stylesheet" type="text/css" href="styles/meyer-reset.css">
+  
+  <link href="https://fonts.googleapis.com/css?family=Arapey|Cookie|Roboto" rel="stylesheet">
+  
   <link rel="stylesheet" type="text/css" href="styles/first-stylesheet.css">
+  
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  
+  <link href="https://fonts.googleapis.com/css?family=Arapey|Cookie|Roboto" rel="stylesheet">
+  
+  <script src="https://use.fontawesome.com/65f75abeff.js"></script>
+   <link rel="stylesheet" type="text/css" href="styles/first-stylesheet.css">
+  
 </head>
   
 <body>
   
   <header>
-     <!--- Logo, name of the site, main navigation -->
-    <img src ="images/logo2.JPG" alt="logo" height=300 width=700 />
-    
-    <nav>
-      <a href="./index.html">About Me</a>
-      <a href="#">Career</a>
-      <a href="./projects.html">Projects</a>
-      <a href="./hiking.html">Hiking</a>
-      <a href="#">Traveling</a>
-      <a href="./contact.html">Contact</a>
-    </nav>
+    <a href="./index.html">
+      <!--- Logo, name of the site, main navigation -->
+      <p class="compact-banner">
+        Lauren Heintz
+      </p>
+
+    </a>
+
+      <nav class="main-nav float_center">
+          <ul class="child">
+            <li><a href="./about.html">About</a></li>
+            <li><a href="#">Career</a></li>
+            <li><a href="./projects.html">Projects</a></li>
+            <li><a href="./hiking.html">Hiking</a></li>
+            <li><a href="#">Traveling</a></li>
+          </ul>
+      </nav>
+  
   </header>
   
-  <section>
+  <section class="clearfix">
     <hr>
     <h1>HIKING</h1>
     <hr>
@@ -45,16 +64,15 @@
   
   
   <footer>
-    <hr>
-    <nav>
-      <a href="./index.html">About Me</a>
-      <a href="#">Career</a>
-      <a href="./projects.html">Projects</a>
-      <a href="./hiking.html">Hiking</a>
-      <a href="#">Traveling</a>
-      <a href="./contact.html" target="_blank">Contact</a>
-    </nav>
-    <p>&copy;| Lauren Heintz |<time datetime="2017-10-14" pubdate> October 14, 2017</time></p>
+    <a href="http://www.facebook.com" target="_blank">
+        <img src="images/facebook.png" alt="facebook logo" title="facebook logo"/>
+    </a>
+    <a href="http://www.github.com" target="_blank">
+        <img src="images/github.png" alt="github logo" title="github logo"/>
+    </a>
+    <a href="http://www.linkedin.com" target="_blank">
+        <img src="images/linked-in.png" alt="linkedin logo" title="linkedin logo"/>
+    </a>
   </footer>
   
 </body>
